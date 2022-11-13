@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Super Mario World / Mario Bros 4</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/jogo.css">
+		<script src="javascript/function.js"></script>
+	</head>
+	<body>
+		<header id="cabecalho">
+			<picture>
+				<img src="img/jogosec.png" id="img">	
+			</picture>
+			<div id="menu">		
+					<ul>
+						<li onmouseover="muda('img/inicio.png')" onmouseout="muda('img/jogosec.png')"><span id="inicio"><a href="index.html">Início</a></span></li>
+						<li onmouseover="muda('img/plataforma.png')" onmouseout="muda('img/jogosec.png')"><a href="plataforma.html">Plataforma</a>
+							<ul id="dropp">
+								<li><a href="mario.html">Mario</a></li>
+								<li><a href="sonic.html">Sonic</a></li>
+							</ul>
+						</li>	
+						<li onmouseover="muda('img/luta.png')" onmouseout="muda('img/jogosec.png')"><a href="luta.html">Luta</a>
+							<ul id="dropl">
+								<li><a href="streetfighter.html">Street Fighter</a></li>
+								<li><a href="anime.html">Anime</a></li>
+							</ul>
+						</li>
+						<li onmouseover="muda('img/outros.png')" onmouseout="muda('img/jogosec.png')"><a href="outros.html">Outros</a></li>
+					</ul>	
+			</div>
+		</header>
+		
+		<div id="interface">
+			<h1 id="titulojogo">SUPER MARIO WORLD</h1>
+			<iframe src="https://www.retrogames.cc/embed/16847-super-mario-world-usa.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>
+			<br>
+			<div id="sobre" class="sobreecontrole">
+				<h1>Sobre</h1>
+				<p>Super Mario World (Super Mario Bros. 4 no Japão) é um jogo de plataformas lançado em 1990 no Japão e em 1991 juntamente com o SNES na América do Norte. É a primeira aparição do dinossauro Yoshi.</p>
+			</div>
+
+		<div id="controle" class="sobreecontrole">
+				<h1>Controles do Jogo</h1>
+				<p>Setas / Move Mario ou Luigi
+				<br>X / Pulo
+				<br>Z / Pulo Giratório
+				<br>A ou S pressionado + Setas / Corre</p>
+			</div>
+		
+		</div>
+        <footer id="rodape"> 
+			<p>O site Jogos EC fornece jogos selecionados e testados exclusivamente por mim. Mas, os créditos dos jogos devem ir para os seus respectivos desenvolvedores.</p>
+			<p><span>Copyright &copy; por Julyo Hidalgo<span></p>
+		</footer>
+	</body>
+</html>

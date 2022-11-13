@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Pac Man</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/jogo.css">
+		<script src="javascript/function.js"></script> 
+	</head>
+	<body>
+		<header id="cabecalho">
+			<picture>
+				<img src="img/jogosec.png" id="img">	
+			</picture>
+			<div id="menu">		
+					<ul>
+						<li onmouseover="muda('img/inicio.png')" onmouseout="muda('img/jogosec.png')"><span id="inicio"><a href="index.html">Início</a></span></li>
+						<li onmouseover="muda('img/plataforma.png')" onmouseout="muda('img/jogosec.png')"><a href="plataforma.html">Plataforma</a>
+							<ul id="dropp">
+								<li><a href="mario.html">Mario</a></li>
+								<li><a href="sonic.html">Sonic</a></li>
+							</ul>
+						</li>	
+						<li onmouseover="muda('img/luta.png')" onmouseout="muda('img/jogosec.png')"><a href="luta.html">Luta</a>
+							<ul id="dropl">
+								<li><a href="streetfighter.html">Street Fighter</a></li>
+								<li><a href="anime.html">Anime</a></li>
+							</ul>
+						</li>
+						<li onmouseover="muda('img/outros.png')" onmouseout="muda('img/jogosec.png')"><a href="outros.html">Outros</a></li>
+					</ul>	
+			</div>
+		</header>
+		
+	</body>
+		<div id="interface">
+			<h1 id="titulojogo" style="text-align:center">PAC MAN</h1>
+			<iframe src="https://funhtml5games.com?embed=pacman" style="width:500px; height:500px; margin-left:35%;" scrolling="no"></iframe>
+			<br>
+			<div id="sobre" class="sobreecontrole">
+				<h1>Sobre</h1>
+				<p> 
+                Pac Man é um jogo de labirinto desenvolvido pela Namco em 1980 para arcades. Originalmento o nome era Puck Man, mas foi alterado para Pac Man.
+				</p>
+			</div>
+
+			<div id="controle" class="sobreecontrole">
+				<h1>Controles do Jogo</h1>
+				<p>
+                Mouse | inicia o jogo<br>
+				Setas | Move Pac Man<br>
+				</p>
+			</div>
+		
+		</div>
+        <footer id="rodape"> 
+			<p>O site Jogos EC fornece jogos selecionados e testados exclusivamente por mim. Mas, os créditos dos jogos devem ir para os seus respectivos desenvolvedores.</p>
+			<p><span>Copyright &copy; por Julyo Hidalgo<span></p>
+		</footer>
+	</body>
+</html>
