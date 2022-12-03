@@ -12,23 +12,26 @@
 				<img src="img/jogosec.png" id="img">	
 			</picture>
 			<div id="menu">		
-					<ul>
-						<li onmouseover="muda('img/inicio.png')" onmouseout="muda('img/jogosec.png')"><span id="inicio"><a href="index.html">Início</a></span></li>
-						<li onmouseover="muda('img/plataforma.png')" onmouseout="muda('img/jogosec.png')"><a href="plataforma.html">Plataforma</a>
-							<ul id="dropp">
-								<li><a href="mario.html">Mario</a></li>
-								<li><a href="sonic.html">Sonic</a></li>
-							</ul>
-						</li>	
-						<li onmouseover="muda('img/luta.png')" onmouseout="muda('img/jogosec.png')"><a href="luta.html">Luta</a>
-							<ul id="dropl">
-								<li><a href="streetfighter.html">Street Fighter</a></li>
-								<li><a href="anime.html">Anime</a></li>
-							</ul>
-						</li>
-						<li onmouseover="muda('img/outros.png')" onmouseout="muda('img/jogosec.png')"><a href="outros.html">Outros</a></li>
-					</ul>	
-			</div>
+						<ul>
+							<li onmouseover="muda('img/inicio.png')" onmouseout="muda('img/jogosec.png')"><span id="inicio"><a href="index.html">Início</a></span></li>
+                            
+                            <li class="dropdown" onmouseover="muda('img/plataforma.png')" onmouseout="muda('img/jogosec.png')"><a href="plataforma.html">Plataforma</a>
+                                <div class="dropdown-content">
+                                    <a href="mario.html">Mario</a>
+                                    <a href="sonic.html">Sonic</a>
+                                </div>
+                            </li>
+                            
+							<li class="dropdown" onmouseover="muda('img/luta.png')" onmouseout="muda('img/jogosec.png')"><a href="luta.html">Luta</a>
+								<div class="dropdown-content">
+									<a href="streetfighter.html">Street Fighter</a>
+									<a href="anime.html">Anime</a>
+								</div>
+							</li>
+                            
+							<li onmouseover="muda('img/outros.png')" onmouseout="muda('img/jogosec.png')"><a href="outros.html">Outros</a></li>
+						</ul>	
+				</div>
 		</header>
 		
 	</body>
