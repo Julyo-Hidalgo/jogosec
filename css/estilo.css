@@ -21,7 +21,7 @@ picture img{
 
 #menu{
     border-radius: 10px;
-    width: 30%;
+    width: 40%;
     margin: 2% auto;
     text-align: center;
     padding: 1%;
@@ -42,6 +42,11 @@ picture img{
     display: block;
 }
 
+#menu li:hover, .dropdown-content a:hover{
+    background-color: #076bcf;
+    border-radius: 10px;
+}
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -60,6 +65,15 @@ picture img{
   text-align: left;
 }
 
+#responsive_menu{
+    display: none;
+}
+
+@media screen and (max-width: 900px){
+    #menu{display: none;}
+    #responsive_menu{display: block;}
+}
+    
 #inicio{
 	text-decoration: overline;
 }

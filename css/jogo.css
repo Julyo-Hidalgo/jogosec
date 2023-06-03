@@ -21,7 +21,7 @@ picture img{
 
 #menu{
     border-radius: 10px;
-    width: 30%;
+    width: 40%;
     margin: 2% auto;
     text-align: center;
     padding: 1%;
@@ -40,6 +40,11 @@ picture img{
 
 #menu .dropdown:hover .dropdown-content{
     display: block;
+}
+
+#menu li:hover, .dropdown-content a:hover{
+    background-color: #076bcf;
+    border-radius: 10px;
 }
 
 .dropdown-content {
