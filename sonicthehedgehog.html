@@ -3,6 +3,7 @@
 	<head>
 		<title>Sonic the Headgehog </title>
 		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="css/jogo.css">
 		<script src="javascript/function.js"></script> 
 	</head>
@@ -32,6 +33,35 @@
 							<li onmouseover="muda('img/outros.png')" onmouseout="muda('img/jogosec.png')"><a href="outros.html">Outros</a></li>
 						</ul>	
 				</div>
+
+            <div class="responsive_menu" id="myNav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="responsive_menu_content">
+                        <div class="main_menu">
+                            <a href="index.html">Início</a>
+                            <a href="plataforma.html">Plataforma</a>
+                        </div>
+                        
+                        <div class="submenu">
+                            <a href="mario.html">Mario</a>
+                            <a href="sonic.html">Sonic</a>
+                        </div>
+                        
+                        <div class="main_menu">
+                            <a href="luta.html">Luta</a>
+                        </div>
+                        
+                        <div class="submenu">
+                            <a href="streetfighter.html">Street Fighter</a>
+                            <a href="anime.html">Anime</a>
+                        </div>
+                        <div class="main_menu">
+                            <a href="outros.html">Outros</a>
+                        </div>
+                    </div>
+                </div>
+
+                <span id="menu_button" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 		</header>
 		<div id="interface">
 			<h1 id="titulojogo" style="text-align:center">SONIC THE HEDGEHOG</h1>
