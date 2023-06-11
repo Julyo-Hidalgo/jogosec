@@ -58,3 +58,9 @@
 #rodape span{
 	font-size:15px;
 }
+
+@media screen and (max-width: 960px){
+    #bvn{
+        display: none;
+    }
+}
