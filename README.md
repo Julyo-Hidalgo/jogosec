@@ -1,3 +1,3 @@
 # jogosec
 Acesse o link:
-jogosec.ga
+https://julyo-hidalgo.github.io/jogosec/index.html
