@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 	<head>
-		<title>Jogos EC - Luta - Anime</title>
+		<title>Bleach VS Naruto 3.0</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<link rel="stylesheet" href="css/jogo.css">
 		<script src="javascript/function.js"></script>
 	</head>
 	<body>
@@ -12,8 +12,7 @@
 			<picture>
 				<img src="img/jogosec.png" id="img">	
 			</picture>
-
-            <div id="menu">		
+			<div id="menu">		
 						<ul>
 							<li onmouseover="muda('img/inicio.png')" onmouseout="muda('img/jogosec.png')"><span id="inicio"><a href="index.html">Início</a></span></li>
                             
@@ -65,21 +64,34 @@
                 <span id="menu_button" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 		</header>
 		
+	</body>
 		<div id="interface">
-			<div class="bloco">
-				<div class="imagem"><a href="bleachvsnaruto2.6.html"><img src="img/bleachvsnaruto2.6.png" alt="Bleach vs Naruto 2.6"></a></div>
-				<div class="texto"><a href="bleachvsnaruto2.6.html">Bleach vs Naruto 2.6</a></div>
-			</div>	
+			<h1 id="titulojogo" style="text-align:center">BLEACH VS NARUTO 3.0</h1>
+			<iframe id="frame" width="100%" height="531px" src="https://w8.snokido.com/games/flash/ruffle.html?g=bleach-vs-naruto/30/game&v=231027" frameborder="0" scrolling="no" allowfullscreen="" allow="autoplay;fullscreen"></iframe>
+			<!--<iframe id="embed" src="data/bleachvsnaruto260/index.php" marginheight="0" marginwidth="0" scrolling="no" allowfullscreen="" allow="autoplay;fullscreen" data-ruffle-polyfilled=""></iframe>-->
+			<br>
+			<div id="sobre" class="sobreecontrole">
+				<h1>Sobre</h1>
+				<p> 
+                Esse é um jogo que traz uma batalha épica entre os animes Bleach e Naruto, escolha seu personagem e vá para a luta.
+				</p>
+			</div>
+
+			<div id="controle" class="sobreecontrole">
+				<h1>Controles do Jogo</h1>
+				<p>
+                    Jogador 1 | Jogador 2<br>
+                    W, A, S, D / Setas: mover o lutador<br>
+                    J / Num1: atacar; sair do menu<br>
+                    K / Num2: pular<br>
+                    L / Num3: corrida<br>
+                    U, I, O / Num4, 5, 6: ataques especiais
+				</p>
+			</div>
 		
-			<div class="bloco">
-                                <div class="imagem"><a href="bleachvsnaruto3.0.html"><img src="img/bleachvsnaruto2.6.png" alt="Bleach vs Naruto 3.0"></a></div>
-                                <div class="texto"><a href="bleachvsnaruto3.0.html">Bleach vs Naruto 3.0</a></div>
-                        </div>
-		</div>
-		 <footer id="rodape">
-            <p>O site Jogos EC fornece jogos selecionados e testados exclusivamente
-por mim. Mas, os créditos dos jogos devem ir para os seus respectivos desenvolvedores.</p>                                                                             
-            <p><span>Copyright &copy; por Julyo Hidalgo<span></p>                  
-        </footer>  
+		<footer id="rodape"> 
+			<p>O site Jogos EC fornece jogos selecionados e testados exclusivamente por mim. Mas, os créditos dos jogos devem ir para os seus respectivos desenvolvedores.</p>
+			<p><span>Copyright &copy; por Julyo Hidalgo<span></p>
+		</footer>
 	</body>
 </html>
